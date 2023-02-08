@@ -4,8 +4,164 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HTML i CSS portfolio</title>
+
+        <!-- font awesome cdn link-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        <!-- custom css file link -->
+        <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
-        
+
+        <!-- Header Section -->
+        <header>
+            <div class="user">
+                <img src="./assets/img/profile.jpg" alt="profile picture">
+                <h3 class="name">Vedran S.</h3>
+                <p class="post">Front End Developer</p>
+            </div>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="menu" class="fa fa-bars"></div>
+
+        <!-- Home Section -->
+        <section id="home" class="home">
+            <h3>HI THERE !</h3>
+            <h1>I'M <span>Vedran</span></h1>
+            <p>Founder & CEO of Coding Master. I'm B.Sc.(C.S) Final year Student, a Frontend Web Developer & Providing Quality Content</p>
+            <a href="#about"><button class="btn">About Me <i class="fas fa-user"></i></a></button>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <h1 class="heading"><span>About</span> Me</h1>
+            <div class="row">
+                <div class="info">
+                    <h3><span>Name: </span>Vedran S</h3>
+                    <h3><span>Age: </span>&lt40</h3>
+                    <h3><span>Post: </span>Front End Developer</h3>
+                    <h3><span>Language: </span>Hr/En</h3>
+                    <a href="#">
+                        <button class="btn">Download CV <i class="fas fa-download"></i></button>
+                    </a>
+                </div>
+
+                <div class="counter">
+                    <div class="box">
+                        <span>2+</span>
+                        <h3>Years of experience</h3>
+                    </div>
+                    <div class="box">
+                        <span>100+</span>
+                        <h3>Project Completed</h3>
+                    </div>
+                    <div class="box">
+                        <span>210+</span>
+                        <h3>Happy Clients</h3>
+                    </div>
+                    <div class="box">
+                        <span>10+</span>
+                        <h3>Awards Won</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education">
+            <h1 class="heading">My <span>Education</span></h1>
+            <div class="box-container">
+
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2017</span>
+                    <h3>Intermediate Passout</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro odio minus provident. Ullam asperiores animi reiciendis fugiat id. Reiciendis veritatis ipsa assumenda sit porro numquam nobis eum expedita velit nulla.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2018</span>
+                    <h3>College Student</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vitae, qui consectetur obcaecati explicabo facere commodi, recusandae natus aliquam veritatis molestias in et adipisci iste, repellat nulla vero quasi cum!</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2021</span>
+                    <h3>Founder & CEO Of Coding Master</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vitae, qui consectetur obcaecati explicabo facere commodi, recusandae natus aliquam veritatis molestias in et adipisci iste, repellat nulla vero quasi cum!</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2021</span>
+                    <h3>Founder & CEO Of Coding Master</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vitae, qui consectetur obcaecati explicabo facere commodi, recusandae natus aliquam veritatis molestias in et adipisci iste, repellat nulla vero quasi cum!</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2021</span>
+                    <h3>Founder & CEO Of Coding Master</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vitae, qui consectetur obcaecati explicabo facere commodi, recusandae natus aliquam veritatis molestias in et adipisci iste, repellat nulla vero quasi cum!</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2021</span>
+                    <h3>Founder & CEO Of Coding Master</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic vitae, qui consectetur obcaecati explicabo facere commodi, recusandae natus aliquam veritatis molestias in et adipisci iste, repellat nulla vero quasi cum!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio">
+            <h1 class="heading">My <span>Portfolio</span></h1>
+
+            <div class="box-container">
+                <div class="box"><img src="./assets/img/1.jpg" alt=""></div>
+                <div class="box"><img src="./assets/img/2.jpg" alt=""></div>
+                <div class="box"><img src="./assets/img/3.jpg" alt=""></div>
+                <div class="box"><img src="./assets/img/4.jpg" alt=""></div>
+                <div class="box"><img src="./assets/img/5.jpg" alt=""></div>
+                <div class="box"><img src="./assets/img/6.jpg" alt=""></div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h1 class="heading"> <span>contact</span> me</h1>
+            <div class="row">
+                <div class="content">
+                    <h3 class="title">contact info</h3>
+                    <div class="info">
+                        <h3><i class="fas fa-envelope"> vs@gmail.com</i></h3>
+                        <h3><i class="fas fa-phone"> +123-456-789</i></h3>
+                        <h3><i class="fas fa-map-marker-alt"> Cro, Osijek 31000</i></h3>
+                    </div>
+                </div>
+
+                <form action="">
+                    <input type="text" class="box" placeholder="name">
+                    <input type="email" class="box" placeholder="email">
+                    <input type="text" class="box" placeholder="project">
+                    <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                    <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </section>
+
+        <!-- jquery cdn link -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!-- custom js file link -->
+        <script src="./assets/js/script.js"></script>
+
     </body>
 </html>
