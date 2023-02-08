@@ -1,2 +1,3 @@
-# algebra.vjezba.css.2
+# HTML i CSS - web portfolio
+
 Završetak CSS lekcija
